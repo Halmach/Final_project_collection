@@ -33,7 +33,7 @@ namespace Final_project_collection
             var words = noPunctuationText.Split(sepChars, StringSplitOptions.RemoveEmptyEntries);
 
 
-            float cnt = 1;
+            float cnt = 1; 
 
             foreach (var word in words)
             {
